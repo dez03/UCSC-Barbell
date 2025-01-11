@@ -34,7 +34,7 @@ const Countdown = () => {
   }, []);
 
   return (
-    <div className="bg-white p-6 pb-8 rounded-3xl text-center">
+    <div className="bg-white max-w-full overflow-hidden md:p-6 md:pb-8 mr-4 rounded-3xl text-center">
       <h3 className="text-xl font-bold mb-4 text-gray-800">Register for our Power Lifting Competition</h3>
       <div className="flex justify-center space-x-4">
         <div className="text-center">
