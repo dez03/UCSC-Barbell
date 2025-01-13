@@ -35,7 +35,9 @@ const Countdown = () => {
 
   return (
     <div className="bg-white max-w-full overflow-hidden md:p-6 md:pb-8 mr-4 rounded-3xl text-center">
-      <h3 className="text-xl font-bold mb-4 text-gray-800">Register for our Power Lifting Competition</h3>
+      <h3 className="text-xl font-bold mb-4 text-gray-800">
+        Register for our Power Lifting Competition
+      </h3>
       <div className="flex justify-center space-x-4">
         <div className="text-center">
           <p className="text-4xl font-bold text-gray-800">{timeLeft.days}</p>
@@ -54,6 +56,9 @@ const Countdown = () => {
           <p className="text-sm text-gray-600">Seconds</p>
         </div>
       </div>
+      <button className="mt-6 bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-6 rounded-lg shadow-md">
+        Compete March 8th
+      </button>
     </div>
   );
 };
