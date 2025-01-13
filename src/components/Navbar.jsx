@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import UCSCLogo from "../assets/UCSCLogo.png";
 
@@ -9,11 +10,13 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo and Name */}
         <div className="flex items-center">
+          <Link to="/">
           <img
             src={UCSCLogo}
             alt="UCSC Barbell Logo"
             className="h-10 w-10 mr-3"
           />
+          </Link>
           <span className="text-lg font-bold text-gray-800">UCSC BARBELL</span>
         </div>
 
