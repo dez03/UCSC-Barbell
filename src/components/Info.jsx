@@ -1,4 +1,5 @@
 import React from "react";
+import { FaUsers, FaChartLine, FaCalendarAlt } from "react-icons/fa";
 
 const Info = () => {
   return (
@@ -9,9 +10,8 @@ const Info = () => {
       <div className="flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-8 md:space-y-0">
         {/* Community Section */}
         <div className="text-center">
-          <div className="text-red-500 text-5xl mb-4">
-            <i className="fas fa-dumbbell"></i>{" "}
-            {/* Replace with actual image/icon */}
+          <div className="flex flex-col items-center mb-4">
+            <FaUsers className="text-red-500 text-6xl" /> {/* Icon for Community */}
           </div>
           <h3 className="text-xl font-semibold text-red-500 mb-2">Community</h3>
           <p className="text-gray-700">
@@ -24,9 +24,8 @@ const Info = () => {
 
         {/* Programming Section */}
         <div className="text-center">
-          <div className="text-red-500 text-5xl mb-4">
-            <i className="fas fa-chart-line"></i>{" "}
-            {/* Replace with actual image/icon */}
+          <div className="flex flex-col items-center mb-4">
+            <FaChartLine className="text-red-500 text-6xl" /> {/* Icon for Programming */}
           </div>
           <h3 className="text-xl font-semibold text-red-500 mb-2">
             Programming
@@ -42,9 +41,8 @@ const Info = () => {
 
         {/* Events Section */}
         <div className="text-center">
-          <div className="text-red-500 text-5xl mb-4">
-            <i className="fas fa-calendar-alt"></i>{" "}
-            {/* Replace with actual image/icon */}
+          <div className="flex flex-col items-center mb-4">
+            <FaCalendarAlt className="text-red-500 text-6xl" /> {/* Icon for Events */}
           </div>
           <h3 className="text-xl font-semibold text-red-500 mb-2">Events</h3>
           <p className="text-gray-700">

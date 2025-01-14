@@ -17,31 +17,28 @@ export default function Navbar() {
             className="h-10 w-10 mr-3"
           />
           </Link>
-          <span className="text-lg font-bold text-gray-800">UCSC BARBELL</span>
+          <Link to="/">
+            <span className="text-lg font-bold text-gray-800">UCSC BARBELL</span>
+          </Link>
         </div>
 
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex space-x-8">
+          
           <a
-            href="#about"
-            className="text-gray-800 hover:text-gray-600 font-semibold"
-          >
-            ABOUT
-          </a>
-          <a
-            href="#weekly-lifts"
+            href="/weeklylifts"
             className="text-gray-800 hover:text-gray-600 font-semibold"
           >
             WEEKLY LIFTS
           </a>
           <a
-            href="#events"
+            href="/events"
             className="text-gray-800 hover:text-gray-600 font-semibold"
           >
             EVENTS
           </a>
           <a
-            href="#faq"
+            href="/faq"
             className="text-gray-800 hover:text-gray-600 font-semibold"
           >
             FAQ

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import React, { useState, useEffect } from "react";
 
 const Countdown = () => {
@@ -56,9 +57,11 @@ const Countdown = () => {
           <p className="text-sm text-gray-600">Seconds</p>
         </div>
       </div>
-      <button className="mt-6 bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-6 rounded-lg shadow-md">
-        Compete March 8th
-      </button>
+      <Link to="/events">
+        <button className="mt-6 bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-6 rounded-lg shadow-md">
+          Compete March 8th
+        </button>
+      </Link>
     </div>
   );
 };
