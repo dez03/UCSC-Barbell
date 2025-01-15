@@ -103,12 +103,6 @@ export default function Navbar() {
               {/* Links */}
               <div className="flex flex-col space-y-6 px-8">
                 <a
-                  href="#about"
-                  className="text-gray-800 hover:text-gray-600 font-semibold"
-                >
-                  ABOUT
-                </a>
-                <a
                   href="/weeklylifts"
                   className="text-gray-800 hover:text-gray-600 font-semibold"
                 >
