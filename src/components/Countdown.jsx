@@ -35,8 +35,8 @@ const Countdown = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-br from-gray-800 via-gray-900 to-black max-w-full overflow-hidden md:p-6 md:pb-8 mr-4 rounded-3xl text-center shadow-lg">
-      <h3 className="text-xl font-heading font-bold mb-4 text-yellow-500">
+    <div className="bg-gradient-to-br from-gray-800 via-gray-900 to-black max-w-full overflow-hidden md:p-6 md:pb-8 rounded-3xl text-center shadow-lg">
+      <h3 className="text-xl font-heading font-bold my-4 text-yellow-500">
         Register for our Power Lifting Competition
       </h3>
       <div className="flex justify-center space-x-4">
@@ -62,7 +62,7 @@ const Countdown = () => {
           Compete March 8th
         </button>
       </Link>
-      <h1 className="pt-4 font-body text-gray-300">Enter for a chance to win $100!</h1>
+      <h1 className="pt-4 my-2 font-body text-gray-300">Enter for a chance to win $100!</h1>
     </div>
   );
 };
