@@ -33,9 +33,11 @@ const WeeklyLifts = () => {
         <h2 className="text-3xl font-bold mb-4">📍 Location</h2>
         <p className="text-lg text-gray-300">UCSC Multipurpose Room</p>
         <p className="text-gray-400">405 E Field Service Rd, Santa Cruz, CA 95064</p>
-        <button className="mt-6 bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
-          Contact Us
-        </button>
+        <a href="mailto:ucscbarbell@gmail.com">
+          <button className="mt-6 bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
+            Contact Us
+          </button>
+        </a>
       </div>
 
       {/* What to Expect Section */}
