@@ -54,6 +54,9 @@ const Events = () => {
       <div className="text-center mb-12 bg-gray-800/80 rounded-lg shadow-lg p-8">
         <h2 className="text-3xl font-bold text-yellow-500 mb-4">Event Details</h2>
         <p className="text-lg text-gray-300">
+          🏋️ <span className="font-semibold">Event:</span> Powerlifting Competition
+        </p>
+        <p className="text-lg text-gray-300 mt-4">
           📍 <span className="font-semibold">Location:</span> UCSC Multipurpose Room, 405 E Field Service Rd,
           Santa Cruz, CA 95064
         </p>
