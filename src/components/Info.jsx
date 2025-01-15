@@ -3,18 +3,20 @@ import { FaUsers, FaChartLine, FaCalendarAlt } from "react-icons/fa";
 
 const Info = () => {
   return (
-    <div className="bg-white py-10 px-5">
-      <h2 className="text-3xl font-bold text-center mb-8">
+    <div className="bg-gradient-to-br from-gray-800 via-gray-900 to-black text-white py-16 px-6">
+      <h2 className="text-4xl font-extrabold text-center mb-12 text-yellow-500 tracking-wide drop-shadow-lg">
         Why Choose UCSC Barbell
       </h2>
-      <div className="flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-8 md:space-y-0">
+      <div className="flex flex-col md:flex-row justify-center items-center md:space-x-10 space-y-12 md:space-y-0">
         {/* Community Section */}
-        <div className="text-center">
-          <div className="flex flex-col items-center mb-4">
-            <FaUsers className="text-red-500 text-6xl" /> {/* Icon for Community */}
+        <div className="bg-gray-800/80 rounded-lg shadow-lg p-6 text-center max-w-md">
+          <div className="flex flex-col items-center mb-6">
+            <FaUsers className="text-yellow-500 text-6xl" /> {/* Icon for Community */}
           </div>
-          <h3 className="text-xl font-semibold text-red-500 mb-2">Community</h3>
-          <p className="text-gray-700">
+          <h3 className="text-2xl font-semibold text-yellow-500 mb-4">
+            Community
+          </h3>
+          <p className="text-gray-300">
             Train with a team. Our culture is more than just lifting weights;
             it's about supporting each other, pushing limits, and creating a
             home away from home. We offer a group atmosphere that motivates,
@@ -23,14 +25,14 @@ const Info = () => {
         </div>
 
         {/* Programming Section */}
-        <div className="text-center">
-          <div className="flex flex-col items-center mb-4">
-            <FaChartLine className="text-red-500 text-6xl" /> {/* Icon for Programming */}
+        <div className="bg-gray-800/80 rounded-lg shadow-lg p-6 text-center max-w-md">
+          <div className="flex flex-col items-center mb-6">
+            <FaChartLine className="text-yellow-500 text-6xl" /> {/* Icon for Programming */}
           </div>
-          <h3 className="text-xl font-semibold text-red-500 mb-2">
+          <h3 className="text-2xl font-semibold text-yellow-500 mb-4">
             Programming
           </h3>
-          <p className="text-gray-700">
+          <p className="text-gray-300">
             We provide training programs tailored for you. Volume, intensity,
             time, training days, and movement progression built around your
             wants, needs, and goals as an athlete. Competitive and
@@ -40,12 +42,14 @@ const Info = () => {
         </div>
 
         {/* Events Section */}
-        <div className="text-center">
-          <div className="flex flex-col items-center mb-4">
-            <FaCalendarAlt className="text-red-500 text-6xl" /> {/* Icon for Events */}
+        <div className="bg-gray-800/80 rounded-lg shadow-lg p-6 text-center max-w-md">
+          <div className="flex flex-col items-center mb-6">
+            <FaCalendarAlt className="text-yellow-500 text-6xl" /> {/* Icon for Events */}
           </div>
-          <h3 className="text-xl font-semibold text-red-500 mb-2">Events</h3>
-          <p className="text-gray-700">
+          <h3 className="text-2xl font-semibold text-yellow-500 mb-4">
+            Events
+          </h3>
+          <p className="text-gray-300">
             We host fun events year-round. Outside of our weekly team lifts, we
             host powerlifting events for prizes, educational workshops to refine
             technique, friendly competitions to celebrate personal progress, and

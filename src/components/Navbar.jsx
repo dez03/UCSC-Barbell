@@ -37,12 +37,6 @@ export default function Navbar() {
           >
             EVENTS
           </a>
-          <a
-            href="/faq"
-            className="text-gray-800 hover:text-gray-600 font-semibold"
-          >
-            FAQ
-          </a>
         </div>
 
         {/* Hamburger Menu Button (Mobile/Tablet) */}
@@ -115,22 +109,16 @@ export default function Navbar() {
                   ABOUT
                 </a>
                 <a
-                  href="#weekly-lifts"
+                  href="/weeklylifts"
                   className="text-gray-800 hover:text-gray-600 font-semibold"
                 >
                   WEEKLY LIFTS
                 </a>
                 <a
-                  href="#events"
+                  href="/events"
                   className="text-gray-800 hover:text-gray-600 font-semibold"
                 >
                   EVENTS
-                </a>
-                <a
-                  href="#faq"
-                  className="text-gray-800 hover:text-gray-600 font-semibold"
-                >
-                  FAQ
                 </a>
               </div>
             </div>

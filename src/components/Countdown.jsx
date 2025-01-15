@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 
 const Countdown = () => {
@@ -35,26 +35,26 @@ const Countdown = () => {
   }, []);
 
   return (
-    <div className="bg-white max-w-full overflow-hidden md:p-6 md:pb-8 mr-4 rounded-3xl text-center">
-      <h3 className="text-xl font-bold mb-4 text-gray-800">
+    <div className="bg-gradient-to-br from-gray-800 via-gray-900 to-black max-w-full overflow-hidden md:p-6 md:pb-8 mr-4 rounded-3xl text-center shadow-lg">
+      <h3 className="text-xl font-heading font-bold mb-4 text-yellow-500">
         Register for our Power Lifting Competition
       </h3>
       <div className="flex justify-center space-x-4">
         <div className="text-center">
-          <p className="text-4xl font-bold text-gray-800">{timeLeft.days}</p>
-          <p className="text-sm text-gray-600">Days</p>
+          <p className="text-2xl md:text-4xl font-bold text-white">{timeLeft.days}</p>
+          <p className="text-sm text-gray-400">Days</p>
         </div>
         <div className="text-center">
-          <p className="text-4xl font-bold text-gray-800">{timeLeft.hours}</p>
-          <p className="text-sm text-gray-600">Hours</p>
+          <p className="text-2xl md:text-4xl font-bold text-white">{timeLeft.hours}</p>
+          <p className="text-sm text-gray-400">Hours</p>
         </div>
         <div className="text-center">
-          <p className="text-4xl font-bold text-gray-800">{timeLeft.minutes}</p>
-          <p className="text-sm text-gray-600">Minutes</p>
+          <p className="text-2xl md:text-4xl font-bold text-white">{timeLeft.minutes}</p>
+          <p className="text-sm text-gray-400">Minutes</p>
         </div>
         <div className="text-center">
-          <p className="text-4xl font-bold text-gray-800">{timeLeft.seconds}</p>
-          <p className="text-sm text-gray-600">Seconds</p>
+          <p className="text-2xl md:text-4xl font-bold text-white">{timeLeft.seconds}</p>
+          <p className="text-sm text-gray-400">Seconds</p>
         </div>
       </div>
       <Link to="/events">
@@ -62,6 +62,7 @@ const Countdown = () => {
           Compete March 8th
         </button>
       </Link>
+      <h1 className="pt-4 font-body text-gray-300">Enter for a chance to win $100!</h1>
     </div>
   );
 };

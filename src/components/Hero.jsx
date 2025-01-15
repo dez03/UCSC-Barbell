@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="container mx-auto relative h-[600px] overflow-hidden">
           {/* Left Side */}
           <div className="absolute left-0 top-0 w-1/2 h-full p-8">
-            <h2 className="text-xl md:text-3xl text-white font-semibold leading-tight">
+            <h2 className="text-xl md:text-3xl text-white font-heading font-semibold leading-tight">
               STRENGTH IN COMMUNITY,
               <br />
               POWER IN PROGRESS
@@ -36,10 +36,10 @@ export default function Hero() {
 
             {/* Content */}
             <div className="relative z-10">
-              <h1 className="text-4xl lg:text-6xl text-white font-bold mb-16">
+              <h1 className="text-4xl lg:text-6xl text-white font-heading font-bold mb-16">
                 JOIN UCSC BARBELL
               </h1>
-              <div className="bg-white rounded-lg p-6 max-w-md">
+              <div className=" rounded-lg p-6 max-w-md font-body">
                 <Countdown />
               </div>
             </div>
@@ -50,7 +50,7 @@ export default function Hero() {
       {/* Mobile Layout */}
       <div className="md:hidden">
         <div className="flex flex-col items-center px-4 py-8">
-          <h1 className="text-3xl font-bold text-white mb-6">
+          <h1 className="text-3xl font-bold text-white font-heading mb-6">
             JOIN UCSC BARBELL
           </h1>
 
@@ -62,17 +62,16 @@ export default function Hero() {
             />
           </div>
 
-          <h2 className="text-xl font-semibold text-white text-center mb-8">
+          <h2 className="text-xl font-semibold text-white font-heading text-center mb-8">
             STRENGTH IN COMMUNITY,
             <br />
             POWER IN PROGRESS
           </h2>
 
-          <div className="w-full max-w-sm">
-            <div className="bg-white rounded-lg p-6">
+            <div className="rounded-lg p-6 font-body">
               <Countdown />
             </div>
-          </div>
+        
         </div>
       </div>
     </div>
