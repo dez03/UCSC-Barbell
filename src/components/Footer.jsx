@@ -9,6 +9,21 @@ const Footer = () => {
           </p>
 
           {/* Right Section */}
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <p className="text-sm text-center md:text-left">
+              Developed by{" "}
+              <a
+                href="https://github.com/dez03"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-yellow-500 transition duration-300"
+              >
+                Aviel Hernandez
+              </a>
+            </p>
+          </div>
+
+          {/* Social Links */}
           <div className="flex space-x-6">
             <a
               href="https://www.instagram.com/ucsc_barbell/"
@@ -18,7 +33,6 @@ const Footer = () => {
             >
               Instagram
             </a>
-           
             <a
               href="mailto:ucscbarbell@gmail.com"
               className="hover:text-yellow-500 transition duration-300"
